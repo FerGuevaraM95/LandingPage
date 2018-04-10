@@ -9,8 +9,31 @@
     display: flex
     align-items: center
     justify-content: center
+    & li
+        padding: 0 30px
     & figure
         display: flex
         justify-content: center
         align-items: center
         flex-flow: column
+        position: relative
+        width: 150px
+        height: 190px
+        &::after
+            content: ""
+            position: absolute
+            border-radius: 50%
+            top: 0
+            left: 0
+            width: 150px
+            height: 150px
+            z-index: 0
+            background: #fff
+    & img
+        position: relative
+        z-index: 1  
+    & figcaption
+        position: relative
+        left: 0
+        right: 0
+        bottom: -40px
