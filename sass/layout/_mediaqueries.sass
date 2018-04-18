@@ -1,0 +1,65 @@
+//====================================
+// Big screen
+//====================================
+@media screen and (min-width:1300px)
+    .navbar a
+        padding: 0 35px
+    .list-services li
+        padding: 0 45px        
+    .footer
+        padding-top: 3em
+
+//====================================
+// Laptop
+//====================================
+@media screen and (max-width: 1080px)
+    .who p
+        max-width: 850px
+    .contain
+        max-width: 850px
+    .localization p
+        margin: 0 80px 40px
+
+//====================================
+// Tablet
+//====================================
+@media screen and (max-width: 900px)
+    .who p
+        max-width: 700px
+    .services p
+        margin: 0 60px 40px    
+    .contain
+        max-width: 700px      
+
+@media screen and (max-width: 800px)
+    .contain
+        max-width: 500px
+//====================================
+// Mobile
+//====================================
+@media screen and (max-width: 600px)
+    .who p
+        max-width: 450px
+    .list-services
+        display: flex
+        flex-direction: column
+        & figcaption
+            bottom: -10px
+    .content
+        padding: 40px 0 0
+    .footer
+        flex-direction: column
+        // justify-content: center
+        align-items: flex-start
+        height: 550px
+        padding-left: 30px
+        font-size: .9em    
+        & div
+            margin-top: 0
+@media screen and (max-width: 520px)
+    .who p
+        max-width: 400px
+    .contain
+        max-width: 300px
+    
+        
