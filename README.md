@@ -1,12 +1,24 @@
-#Landing Page!
+# Landing Page
+---
 
-Landing creada con propósitos de estudio
+## Descripción
 
-Install:
-Solo clona el proyecto y abre el index.html
+Maqueta de  una pagina de aterrizaje
+[Página](https://FerGuevaraM95.github.io/LandingPage/)
 
-Implementado:
-html5
-css
-compass
-sass
+## Tecnologías
+
+- Html 5
+- Css 3
+- Sass v 3.5.5
+- Compass v 1.0.3
+
+## Uso
+
+1. Abre index.html
+
+## Licencia
+
+[MIT](http://opensource.org/licenses/MIT)
+
+---
